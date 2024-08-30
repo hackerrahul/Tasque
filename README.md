@@ -10,7 +10,7 @@ Its very easy to srtup as everything is on cloudflare so no need to manage anyth
 
 #### Clone Repository
 ``` bash
-    git clone https://github.com/hackerrahul/scheduler.git
+    git clone https://github.com/hackerrahul/Serverless-Scheduler-and-Queue.git
 ```
 
 #### Install Dependencies (use npm, yarn, pnpm, bun)
