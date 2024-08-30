@@ -51,7 +51,7 @@ yarn run deploy
 
 Well Done, your scheduler is now live 👍, you can easily view the scheduled tasks and queued jobs in drizzle studio.
 
-to run Drizzle Studio and connect it to live account, you need to generate these things-
+To run Drizzle Studio and connect it to live account, you need to generate these things-
 
 - To get accountId go to Workers & Pages -> Overview -> copy Account ID from the right sidebar.
 - To get databaseId open D1 database you want to connect to and copy Database ID.
