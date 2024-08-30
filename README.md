@@ -10,12 +10,12 @@ Its very easy to srtup as everything is on cloudflare so no need to manage anyth
 
 #### Clone Repository
 ``` bash
-    git clone https://github.com/hackerrahul/Serverless-Scheduler-and-Queue.git
+git clone https://github.com/hackerrahul/Serverless-Scheduler-and-Queue.git
 ```
 
 #### Install Dependencies (use npm, yarn, pnpm, bun)
 ``` bash
-    yarn install
+yarn install
 ```
 
 #### Create D1 Database
@@ -24,29 +24,29 @@ you can follow the steps here as well - [Create D1 Database](https://developers.
 you can name database anything but make sure to remove the db from package.json and wrangler.toml file.
 
 ``` bash
-    npx wrangler d1 create scheduler_db
+npx wrangler d1 create scheduler_db
 ```
 
 #### Make migrations
 ``` bash
-    yarn run make:migration
+yarn run make:migration
 ```
 
 #### Run migrations
 
 ###### Local
 ``` bash
-    yarn run migration:local
+yarn run migration:local
 ```
 
 ###### Production DB
 ``` bash
-    yarn run migration:remote
+yarn run migration:remote
 ```
 
 #### Deploy to production
 ``` bash
-    yarn run deploy
+yarn run deploy
 ```
 
 Well Done, your scheduler is now live 👍, you can easily view the scheduled tasks and queued jobs in drizzle studio.
@@ -61,7 +61,7 @@ Now Remove your .env.example file to .env and paste these details and paste the 
 
 Now to start the studio you can run this command from your terminal
 ``` bash
-    yarn run studio
+yarn run studio
 ```
 This will give you a url to open the studio in your terminal, or you can open from here :
 - https://local.drizzle.studio
