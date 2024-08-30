@@ -79,4 +79,8 @@ Example Below:
 
 > https://scheduler.YOUR_USERNAME.workers.dev
 
+
+#### Contributions
+you can follow [Contribution guidelines for this project](CONTRIBUTING.md)
+
 Star ⭐️ the project if you like it!
