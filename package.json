@@ -1,0 +1,23 @@
+{
+  "name": "scheduler",
+  "scripts": {
+    "dev": "wrangler dev src/index.ts",
+    "make:migration": "npx drizzle-kit generate",
+    "migration:local": "npx wrangler d1 migrations apply scheduler_db --local",
+    "migration:remote": "npx wrangler d1 migrations apply scheduler_db --remote",
+    "studio": "drizzle-kit studio",
+    "deploy": "wrangler deploy --minify src/index.ts"
+  },
+  "dependencies": {
+    "@hono/zod-validator": "^0.2.2",
+    "cron-parser": "^4.9.0",
+    "drizzle-orm": "^0.33.0",
+    "hono": "^4.5.9",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240821.1",
+    "drizzle-kit": "^0.24.2",
+    "wrangler": "^3.57.2"
+  }
+}
