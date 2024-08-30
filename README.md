@@ -26,6 +26,7 @@ you can name database anything but make sure to remove the db from package.json 
 ``` bash
 npx wrangler d1 create scheduler_db
 ```
+This will output database ID, that you have to replace in your wrangler.toml file.
 
 #### Make migrations
 ``` bash
