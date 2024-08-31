@@ -59,11 +59,7 @@ To run Drizzle Studio and connect it to live account, you need to generate these
 - To get databaseId open D1 database you want to connect to and copy Database ID.
 - To get token go to My profile -> API Tokens and create token with D1 edit permissions.
 
-<<<<<<< Updated upstream
-Now rename your .env.example file to .env and paste these details and paste the value of each key.
-=======
 Now Remove your .env.example file to .env and paste these details and paste the value for each key.
->>>>>>> Stashed changes
 
 Now to start the studio you can run this command from your terminal
 ``` bash
