@@ -4,6 +4,7 @@ A Serverless Scheduler and Queue system built on top of cloudflare workers, D1 a
 ## Requirements
 - Cloudflare Worker Paid Plan to access durable objects
 
+---
 ## Easy to setup
 Its very easy to srtup as everything is on cloudflare so no need to manage anything or spinning up any servers
 
@@ -67,7 +68,7 @@ yarn run studio
 This will give you a url to open the studio in your terminal, or you can open from here :
 - https://local.drizzle.studio
 
-
+---
 #### Documentation
 you can find the documentation here for all the API.
 
@@ -79,6 +80,7 @@ Example Below:
 
 > https://scheduler.YOUR_USERNAME.workers.dev
 
+---
 
 #### Contributions
 you can follow [Contribution guidelines for this project](CONTRIBUTING.md)
