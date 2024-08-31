@@ -1,4 +1,4 @@
-# Serverless Task Scheduler and Queue ⚡️
+# Tasque ⚡️
 A Serverless Scheduler and Queue system built on top of cloudflare workers, D1 and Durable Objects to handle scale and schedule/queue millions of job without any hard limit.
 
 ## Requirements
