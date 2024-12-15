@@ -14,7 +14,7 @@ Its very easy to srtup as everything is on cloudflare so no need to manage anyth
 
 #### Clone Repository
 ``` bash
-git clone https://github.com/hackerrahul/Serverless-Scheduler-and-Queue.git
+git clone https://github.com/hackerrahul/Tasque.git
 ```
 
 #### Install Dependencies (use npm, yarn, pnpm, bun)
